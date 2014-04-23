@@ -19,6 +19,8 @@
 		31CDF24C19079E8D0079F5D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31CDF23419079E8C0079F5D1 /* UIKit.framework */; };
 		31CDF25419079E8D0079F5D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31CDF25219079E8D0079F5D1 /* InfoPlist.strings */; };
 		31CDF25619079E8D0079F5D1 /* NewCalculator1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CDF25519079E8D0079F5D1 /* NewCalculator1Tests.m */; };
+		31CDF26419079EBC0079F5D1 /* NCCalcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CDF26219079EBC0079F5D1 /* NCCalcViewController.m */; };
+		31CDF26519079EBC0079F5D1 /* NCCalcViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31CDF26319079EBC0079F5D1 /* NCCalcViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		31CDF25119079E8D0079F5D1 /* NewCalculator1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NewCalculator1Tests-Info.plist"; sourceTree = "<group>"; };
 		31CDF25319079E8D0079F5D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		31CDF25519079E8D0079F5D1 /* NewCalculator1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewCalculator1Tests.m; sourceTree = "<group>"; };
+		31CDF26119079EBC0079F5D1 /* NCCalcViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCCalcViewController.h; sourceTree = "<group>"; };
+		31CDF26219079EBC0079F5D1 /* NCCalcViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCCalcViewController.m; sourceTree = "<group>"; };
+		31CDF26319079EBC0079F5D1 /* NCCalcViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NCCalcViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,7 @@
 		31CDF22419079E8C0079F5D1 = {
 			isa = PBXGroup;
 			children = (
+				31CDF25F19079E930079F5D1 /* New Group */,
 				31CDF23619079E8C0079F5D1 /* NewCalculator1 */,
 				31CDF24F19079E8D0079F5D1 /* NewCalculator1Tests */,
 				31CDF22F19079E8C0079F5D1 /* Frameworks */,
@@ -142,6 +148,24 @@
 				31CDF25219079E8D0079F5D1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31CDF25F19079E930079F5D1 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				31CDF26019079E9F0079F5D1 /* New Group */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		31CDF26019079E9F0079F5D1 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				31CDF26119079EBC0079F5D1 /* NCCalcViewController.h */,
+				31CDF26219079EBC0079F5D1 /* NCCalcViewController.m */,
+				31CDF26319079EBC0079F5D1 /* NCCalcViewController.xib */,
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +246,7 @@
 			files = (
 				31CDF23B19079E8D0079F5D1 /* InfoPlist.strings in Resources */,
 				31CDF24319079E8D0079F5D1 /* Images.xcassets in Resources */,
+				31CDF26519079EBC0079F5D1 /* NCCalcViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31CDF26419079EBC0079F5D1 /* NCCalcViewController.m in Sources */,
 				31CDF23D19079E8D0079F5D1 /* main.m in Sources */,
 				31CDF24119079E8D0079F5D1 /* NCAppDelegate.m in Sources */,
 			);
